@@ -1,0 +1,6082 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.484375,
+          27.877928333679495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8779296875,
+          24.28702686537645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.94921875,
+          30.600093873550072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.818359375,
+          17.392579271057766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.96875,
+          2.7235830833483856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.589843749999998,
+          0.7031073524364783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.09765625,
+          -9.79567758282973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.49609375,
+          -29.382175075145277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.71093750000001,
+          -44.21370990970204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.298828125,
+          57.136239319177434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8125,
+          65.94647177615738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.44140625,
+          57.231502991478926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.94580078125,
+          47.502358951968574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.193359375,
+          33.578014746143985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3330078125,
+          43.992814500489914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3984375,
+          32.62087018318113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.767578125,
+          41.04621681452063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.33984375,
+          54.13669645687002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.724609375,
+          44.2294565683017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.626953125,
+          2.767477951092084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.23828125,
+          -13.923403897723334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.904296875,
+          -13.62463343823614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.1708984375,
+          7.449624260197816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3359375,
+          -32.8426736319543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5615234375,
+          -34.325291924427326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.43359375,
+          -28.30438068296277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.296875,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.392578125,
+          24.5271348225978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.951171875,
+          19.145168196205297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.71386718749999,
+          -1.9332268264771106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.728515624999996,
+          -36.879620605026766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.294921874999999,
+          -47.81315451752766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.19921875,
+          33.284619968887675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.791015625,
+          13.068776734357694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.134765625,
+          -6.402648405963884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.33984375,
+          -52.482780222078205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.14453125,
+          21.207458730482653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3515625,
+          17.978733095556183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.306640625,
+          43.389081939117496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.31640625,
+          48.516604348867475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.82421875,
+          37.020098201368114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.39257812499999,
+          35.02999636902566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.45507812500001,
+          57.89149735271031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9609375,
+          54.059387886623576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.966796875,
+          67.13582938531948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.12792968749999,
+          26.765230565697458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06591796875,
+          16.74142754700361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4248046875,
+          7.798078531355303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": "",
+        "graphic": "lion2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.663085937499996,
+          10.833305983642491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.80468749999999,
+          7.689217127736204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.609375,
+          -19.02057711096681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.61865234375,
+          -22.207749178410847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.513916015625,
+          49.0306652257167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dinosaur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2734375,
+          24.686952411999155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.15283203125,
+          38.90813299596705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5712890625,
+          46.76996843356982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.57080078125,
+          44.91813929958515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.955078125,
+          49.869857346128825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.365966796875,
+          16.77298693096487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.47607421875,
+          20.16941122761028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.802734375,
+          24.066528197726857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9501953125,
+          0.26367094433665017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5283203125,
+          46.55886030311719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "graphic": "kangaroo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8427734375,
+          -27.644606381943312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "kangaroo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.83935546874999,
+          -31.85889704445453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.41796875,
+          -70.61261423801925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.22216796875,
+          -53.78767184435028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.847900390625,
+          -55.37286814115173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.479095458984375,
+          -37.28279464911045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.262115478515623,
+          -37.107765071185135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.09320068359375,
+          -37.032158402958316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.107421875,
+          65.47650756256367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.99609375,
+          61.84578282957251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.68749999999997,
+          63.23362741232569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.390625,
+          57.32652122521709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.375,
+          67.87554134672945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4375,
+          -69.03714171275197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.830078125,
+          -69.96043926902489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.35156249999997,
+          -77.9890486243739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.76391601562499,
+          -54.62297813269033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "panda",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.86328125,
+          30.221101852485987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "panda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.26025390625,
+          26.56887654795065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08203125,
+          36.421282443649496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.34326171874999,
+          31.44741029142872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.02490234375,
+          22.755920681486405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.167724609375,
+          5.364459662948643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.833984375,
+          28.38173504322311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.0816650390625,
+          35.37561413174875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8065185546875,
+          37.11652618491117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.97558593749999,
+          49.468124067331644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2236328125,
+          52.40241887397332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.860595703125,
+          49.830896288288976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.9124755859375,
+          64.34466487098145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3477783203125,
+          45.90529985724796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.254150390625,
+          45.14717913418674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.4853515625,
+          -16.53089842368168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0068359375,
+          4.54357027937176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.974365234375,
+          -3.524386660147952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.576171875,
+          -6.751896464843362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9658203125,
+          23.483400654325642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.086669921875,
+          -7.395152907137248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.710693359375,
+          -6.129631376647244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.404296875,
+          -17.72775860985226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2021484375,
+          -11.372338792141125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.91552734375,
+          -3.8642546157214084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "kangaroo",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8134765625,
+          -14.987239525774244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.19775390625,
+          -24.206889622398023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.43652343749997,
+          -42.5854442573849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.23535156249999,
+          27.186242185608737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.60449218749999,
+          59.06315402462662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.88427734374999,
+          8.341953075466817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.864013671875,
+          6.348056476859364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.57958984374999,
+          4.970560127932007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.168212890625,
+          22.329752304376473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.95275878906249,
+          27.488781168937997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2708740234375,
+          29.978728593469928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.176513671875,
+          31.70947636001935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1875,
+          4.8282597468669755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5185546875,
+          18.35452552912664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.1083984375,
+          18.437924653474393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.864013671875,
+          13.838079936422476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.292236328125,
+          11.533852191510533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3349609375,
+          8.189742344383703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9814453125,
+          -10.40137755454354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.785644531249996,
+          -12.704650508287905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.56689453125,
+          -8.102738577783168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.01806640625,
+          -14.764259178591587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3828125,
+          9.817329187067783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.478515625,
+          50.77815527465925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5302734375,
+          51.138001488062564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0244140625,
+          55.24155203565252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.19580078125,
+          62.08331486294795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.31396484375,
+          61.501734289732326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.25930786132812,
+          -0.856901647439813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.495849609375,
+          13.560561745081422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.04248046875,
+          17.056784609942554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.93798828125,
+          41.672911819602085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.772216796875,
+          43.57641143300888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.13525390625,
+          43.393073720674444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71252441406249,
+          48.5493419587775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4912109375,
+          42.87596410238254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.951171875,
+          36.24427318493909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.556640625,
+          45.98169518512228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.37280273437499,
+          47.60616304386874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.967041015625,
+          49.453842594330744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2734375,
+          -72.3157853052617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.9296875,
+          -69.96043926902489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.43505859374999,
+          -28.758028282691114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.50341796875,
+          -31.231591672050577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.141357421875,
+          7.449624260197816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6611328125,
+          -5.572249801113899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6611328125,
+          -9.42738661503235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.85888671875,
+          2.174770572211874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.264892578125,
+          3.008869978848142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.649169921875,
+          1.0656123898763876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97265625,
+          -32.1384086967725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.56640625,
+          -25.244695951306028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7841796875,
+          -27.80020993741824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0487060546875,
+          41.475660200278234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.26123046875,
+          -5.156598738411155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.89672851562499,
+          -4.773520832778661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9365234375,
+          59.528747228634266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03690528869629,
+          38.90809960121227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2731533050537,
+          44.96825936400325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.85345458984375,
+          46.72856582519053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5885009765625,
+          29.75483997251096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "everest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.77276611328125,
+          27.90523797346572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "pyramids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.761718749999996,
+          30.021543509740027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "colosseum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2882080078125,
+          41.947234477977766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "chichen itza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.35205078124999,
+          20.406420474920278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "taj mahal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2940673828125,
+          27.35347268647926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "easter island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.35688018798828,
+          -27.077774483808355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "stonehenge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0654296875,
+          51.227527905265006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "statue of liberty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04512643814085,
+          40.68986390865585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "angkor wat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.98284912109374,
+          13.507155459536333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "eiffel tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8896484375,
+          48.777912755501845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "petronas towers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.030029296875,
+          3.0582391764093857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "summer palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.99365234375,
+          40.01920130768676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "golden gate bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37190246582031,
+          37.82551432799189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "opera house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26354217529294,
+          -33.83848275599513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.931640625,
+          27.566721430409707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.32275390625,
+          29.28160772298835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5789794921875,
+          30.417887641071157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.052734375,
+          21.62679263479942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.491455078125,
+          33.87041555094183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6640625,
+          68.6245436634471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.45703125,
+          78.85306975959564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.068359375,
+          71.44117085172385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.2109375,
+          82.30889251821553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -217.08984375,
+          69.2249968541159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2470703125,
+          -1.9771465537125645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.30078125,
+          -15.019074989409148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.98095703125,
+          1.6257583604127677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.55322265625,
+          7.732765062729807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29809570312499,
+          10.99512000008428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.030029296875,
+          40.01078714046552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.654296875,
+          42.58544425738491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15185546874999,
+          45.38301927899065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.422340393066406,
+          57.33078386795102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.054840087890625,
+          35.96578065319134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamnoster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.05374145507812,
+          48.295985271707664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.420166015625,
+          34.719039917647905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5615234375,
+          34.542762387234845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37699890136719,
+          44.57970841241188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.19293212890625,
+          38.00698412839117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.484375,
+          27.877928333679495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8779296875,
+          24.28702686537645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.94921875,
+          30.600093873550072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.818359375,
+          17.392579271057766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.96875,
+          2.7235830833483856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.589843749999998,
+          0.7031073524364783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.09765625,
+          -9.79567758282973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.49609375,
+          -29.382175075145277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.71093750000001,
+          -44.21370990970204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.298828125,
+          57.136239319177434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8125,
+          65.94647177615738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.44140625,
+          57.231502991478926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.94580078125,
+          47.502358951968574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.193359375,
+          33.578014746143985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3330078125,
+          43.992814500489914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3984375,
+          32.62087018318113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.767578125,
+          41.04621681452063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.33984375,
+          54.13669645687002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.724609375,
+          44.2294565683017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.626953125,
+          2.767477951092084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.23828125,
+          -13.923403897723334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.904296875,
+          -13.62463343823614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.1708984375,
+          7.449624260197816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3359375,
+          -32.8426736319543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5615234375,
+          -34.325291924427326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.43359375,
+          -28.30438068296277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.296875,
+          38.75408327579141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.392578125,
+          24.5271348225978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.951171875,
+          19.145168196205297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.71386718749999,
+          -1.9332268264771106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.728515624999996,
+          -36.879620605026766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.294921874999999,
+          -47.81315451752766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.19921875,
+          33.284619968887675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.791015625,
+          13.068776734357694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.134765625,
+          -6.402648405963884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.33984375,
+          -52.482780222078205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.14453125,
+          21.207458730482653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3515625,
+          17.978733095556183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.306640625,
+          43.389081939117496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.31640625,
+          48.516604348867475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.82421875,
+          37.020098201368114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.39257812499999,
+          35.02999636902566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.45507812500001,
+          57.89149735271031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9609375,
+          54.059387886623576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.966796875,
+          67.13582938531948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.12792968749999,
+          26.765230565697458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.06591796875,
+          16.74142754700361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4248046875,
+          7.798078531355303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": "",
+        "graphic": "lion2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.663085937499996,
+          10.833305983642491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.80468749999999,
+          7.689217127736204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.609375,
+          -19.02057711096681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.61865234375,
+          -22.207749178410847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.513916015625,
+          49.0306652257167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dinosaur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2734375,
+          24.686952411999155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.15283203125,
+          38.90813299596705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5712890625,
+          46.76996843356982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.57080078125,
+          44.91813929958515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.955078125,
+          49.869857346128825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.365966796875,
+          16.77298693096487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.47607421875,
+          20.16941122761028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.802734375,
+          24.066528197726857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9501953125,
+          0.26367094433665017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.5283203125,
+          46.55886030311719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "graphic": "kangaroo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.8427734375,
+          -27.644606381943312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "kangaroo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.83935546874999,
+          -31.85889704445453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.41796875,
+          -70.61261423801925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.22216796875,
+          -53.78767184435028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.847900390625,
+          -55.37286814115173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.479095458984375,
+          -37.28279464911045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.262115478515623,
+          -37.107765071185135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.09320068359375,
+          -37.032158402958316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.107421875,
+          65.47650756256367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.99609375,
+          61.84578282957251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.68749999999997,
+          63.23362741232569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.390625,
+          57.32652122521709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.375,
+          67.87554134672945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.4375,
+          -69.03714171275197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.830078125,
+          -69.96043926902489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.35156249999997,
+          -77.9890486243739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.76391601562499,
+          -54.62297813269033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "panda",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.86328125,
+          30.221101852485987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "panda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.26025390625,
+          26.56887654795065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08203125,
+          36.421282443649496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.34326171874999,
+          31.44741029142872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.02490234375,
+          22.755920681486405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.167724609375,
+          5.364459662948643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.833984375,
+          28.38173504322311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.0816650390625,
+          35.37561413174875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8065185546875,
+          37.11652618491117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.97558593749999,
+          49.468124067331644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2236328125,
+          52.40241887397332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.860595703125,
+          49.830896288288976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.9124755859375,
+          64.34466487098145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3477783203125,
+          45.90529985724796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.254150390625,
+          45.14717913418674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion2",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.4853515625,
+          -16.53089842368168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0068359375,
+          4.54357027937176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.974365234375,
+          -3.524386660147952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.576171875,
+          -6.751896464843362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9658203125,
+          23.483400654325642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.086669921875,
+          -7.395152907137248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.710693359375,
+          -6.129631376647244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.404296875,
+          -17.72775860985226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2021484375,
+          -11.372338792141125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.91552734375,
+          -3.8642546157214084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "kangaroo",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8134765625,
+          -14.987239525774244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.19775390625,
+          -24.206889622398023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.43652343749997,
+          -42.5854442573849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.23535156249999,
+          27.186242185608737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.60449218749999,
+          59.06315402462662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.88427734374999,
+          8.341953075466817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.864013671875,
+          6.348056476859364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.57958984374999,
+          4.970560127932007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.168212890625,
+          22.329752304376473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.95275878906249,
+          27.488781168937997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2708740234375,
+          29.978728593469928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.176513671875,
+          31.70947636001935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1875,
+          4.8282597468669755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5185546875,
+          18.35452552912664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.1083984375,
+          18.437924653474393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.864013671875,
+          13.838079936422476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "tiger",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.292236328125,
+          11.533852191510533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3349609375,
+          8.189742344383703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9814453125,
+          -10.40137755454354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.785644531249996,
+          -12.704650508287905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.56689453125,
+          -8.102738577783168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.01806640625,
+          -14.764259178591587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3828125,
+          9.817329187067783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.478515625,
+          50.77815527465925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5302734375,
+          51.138001488062564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0244140625,
+          55.24155203565252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mammoth",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.19580078125,
+          62.08331486294795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.31396484375,
+          61.501734289732326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.25930786132812,
+          -0.856901647439813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.495849609375,
+          13.560561745081422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.04248046875,
+          17.056784609942554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.93798828125,
+          41.672911819602085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.772216796875,
+          43.57641143300888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.13525390625,
+          43.393073720674444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71252441406249,
+          48.5493419587775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4912109375,
+          42.87596410238254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "cougar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.951171875,
+          36.24427318493909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.556640625,
+          45.98169518512228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "moose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.37280273437499,
+          47.60616304386874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.967041015625,
+          49.453842594330744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2734375,
+          -72.3157853052617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.9296875,
+          -69.96043926902489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.43505859374999,
+          -28.758028282691114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.50341796875,
+          -31.231591672050577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "gorilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.141357421875,
+          7.449624260197816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6611328125,
+          -5.572249801113899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6611328125,
+          -9.42738661503235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "elephant",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.85888671875,
+          2.174770572211874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.264892578125,
+          3.008869978848142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.649169921875,
+          1.0656123898763876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "zebra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.97265625,
+          -32.1384086967725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "lion1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.56640625,
+          -25.244695951306028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7841796875,
+          -27.80020993741824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "deer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0487060546875,
+          41.475660200278234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.26123046875,
+          -5.156598738411155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.89672851562499,
+          -4.773520832778661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bear"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9365234375,
+          59.528747228634266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03690528869629,
+          38.90809960121227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dino",
+        "scalerank": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2731533050537,
+          44.96825936400325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.85345458984375,
+          46.72856582519053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bigfoot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.5885009765625,
+          29.75483997251096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "everest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.77276611328125,
+          27.90523797346572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "pyramids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.761718749999996,
+          30.021543509740027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "colosseum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2882080078125,
+          41.947234477977766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "chichen itza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.35205078124999,
+          20.406420474920278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "taj mahal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2940673828125,
+          27.35347268647926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "easter island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.35688018798828,
+          -27.077774483808355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "stonehenge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0654296875,
+          51.227527905265006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "statue of liberty"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04512643814085,
+          40.68986390865585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "angkor wat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.98284912109374,
+          13.507155459536333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "eiffel tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8896484375,
+          48.777912755501845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "petronas towers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.030029296875,
+          3.0582391764093857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "summer palace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.99365234375,
+          40.01920130768676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "golden gate bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37190246582031,
+          37.82551432799189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "opera house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.26354217529294,
+          -33.83848275599513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.931640625,
+          27.566721430409707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.32275390625,
+          29.28160772298835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5789794921875,
+          30.417887641071157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.052734375,
+          21.62679263479942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.491455078125,
+          33.87041555094183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6640625,
+          68.6245436634471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.45703125,
+          78.85306975959564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.068359375,
+          71.44117085172385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.2109375,
+          82.30889251821553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -217.08984375,
+          69.2249968541159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2470703125,
+          -1.9771465537125645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.30078125,
+          -15.019074989409148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.98095703125,
+          1.6257583604127677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.55322265625,
+          7.732765062729807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "llama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29809570312499,
+          10.99512000008428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.030029296875,
+          40.01078714046552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison",
+        "scalerank": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.654296875,
+          42.58544425738491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "bison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15185546874999,
+          45.38301927899065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.422340393066406,
+          57.33078386795102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.054840087890625,
+          35.96578065319134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamnoster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.05374145507812,
+          48.295985271707664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.420166015625,
+          34.719039917647905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "camel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5615234375,
+          34.542762387234845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.37699890136719,
+          44.57970841241188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "seamonster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.19293212890625,
+          38.00698412839117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mount rushmore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4551191329956,
+          43.87707704113128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "hagia sophia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.983736038208008,
+          41.01288768466502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "christ the redeemer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.22244644165039,
+          -22.946379936193033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "petra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.442001819610596,
+          30.326026907072983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "great wall of china"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.16259765625,
+          37.38761749978395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "athens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.721199035644528,
+          37.97059066494912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "timbuktu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9991817474365234,
+          16.77545228733213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "saint basils cathedral"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.629117965698235,
+          55.751366352300806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "mount fuji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7302017211914,
+          35.365255815053324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.4765625,
+          10.487811882056695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.7998046875,
+          6.227933930268672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.22119140624999,
+          19.145168196205297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9326171875,
+          34.59704151614417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.357421875,
+          41.0130657870063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.56396484375,
+          30.56226095049944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.2548828125,
+          43.43696596521823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.76416015625,
+          58.63121664342478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0419921875,
+          56.511017504952136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship-pirate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.97509765625,
+          30.58117925738696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.57958984375,
+          34.252676117101515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.6455078125,
+          42.76314586689494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.140380859375,
+          44.33956524809713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9111328125000004,
+          53.81362579235235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.62646484375,
+          11.802834233547687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.517578125,
+          -5.900188795584159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship-pirate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.859375,
+          -17.95783210227241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dolphin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.352783203125,
+          -42.90816007196054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "dinosaur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.23291015625,
+          -43.32517767999295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "penguin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.3212890625,
+          -45.95114968669139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "fish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.87060546875,
+          -42.081916678306314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.96777343749997,
+          -36.368221900851104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.529541015625,
+          10.941191793456534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.45458984375,
+          11.415418041941416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.93896484375,
+          19.31114335506464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship-pirate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.96240234375,
+          24.26699728841817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "boat2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.691650390625,
+          1.5049538726942067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship-pirate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.593505859375,
+          0.21972602392080884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "jaguar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0205078125,
+          -1.526918838498519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.77197265625,
+          13.261333170798274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.74853515625,
+          18.542116654448996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ship-pirate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.364013671875,
+          25.13533901613099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.65625,
+          16.06692895745012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "submarine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.189453125,
+          66.44310650816469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "whale1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2978515625,
+          71.55274065141299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "ox",
+        "scalerank": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0048828125,
+          70.90226826757711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "graphic": "atomium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3361663818359375,
+          50.8865750680795
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#9fd089" buffer-size="256" font-directory="">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[Map data © OpenStreetMap contributors]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">-90.7141,42.884,7</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">11</Parameter>
+  <Parameter name="minzoom">4</Parameter>
+  <Parameter name="name"><![CDATA[picture book]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-bathymetry-v1,mapbox.mapbox-streets-v4,mapbox.mapbox-terrain-v1,saman.75bd258f]]></Parameter>
+</Parameters>
+
+<FontSet name="fontset-0">
+  <Font face-name="Marselis Slab Offc Pro Bold"/>
+  <Font face-name="Arial Unicode MS Bold"/>
+</FontSet>
+<FontSet name="fontset-1">
+  <Font face-name="Gotham Bold"/>
+  <Font face-name="Arial Unicode MS Bold"/>
+</FontSet>
+<FontSet name="fontset-2">
+  <Font face-name="Tartine Script Offc Pro Bold"/>
+  <Font face-name="Arial Unicode MS Bold"/>
+</FontSet>
+<Layer name="waterway"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="water-fill" filter-mode="first" image-filters="agg-stack-blur(20,20)" comp-op="soft-light" opacity="0.5">
+  <Rule>
+    <PolygonSymbolizer fill="#9fd089" />
+  </Rule>
+</Style>
+<Style name="water-shadow" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#6abdbd" />
+  </Rule>
+</Style>
+<Layer name="water"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>water-shadow</StyleName>
+    <StyleName>water-fill</StyleName>  </Layer>
+
+<Layer name="lakes"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="place_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="35" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="80" file="city7.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="31" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="31" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="35" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="80" file="city7.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="31" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="31" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]')) and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer dy="16" fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city1.svg" width="15" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]')) and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]'))</Filter>
+    <TextSymbolizer dy="16" fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city1.svg" width="15" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer dy="20" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="40" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city7.svg" width="80" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="35" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="32" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="32" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city')</Filter>
+    <TextSymbolizer size="16" dy="25" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city')</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+</Style>
+<Layer name="place_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>place_label</StyleName>  </Layer>
+
+<Style name="creatures" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer shield-dx="-30" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer shield-dx="-30" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer shield-dx="-40" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-35" fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([graphic] = 'atomium')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="atomium.svg" size="10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'great wall of china')</Filter>
+    <ShieldSymbolizer shield-dx="-10" shield-dy="-15" fontset-name="fontset-0" allow-overlap="true" file="greatwallofchina.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'great wall of china')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="greatwallofchina.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([graphic] = 'opera house')</Filter>
+    <ShieldSymbolizer shield-dx="65" shield-dy="-25" fontset-name="fontset-0" allow-overlap="true" file="operahouse.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'opera house')</Filter>
+    <ShieldSymbolizer shield-dx="45" shield-dy="-30" fontset-name="fontset-0" allow-overlap="true" file="operahouse.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'opera house')</Filter>
+    <ShieldSymbolizer shield-dx="25" shield-dy="-12" fontset-name="fontset-0" allow-overlap="true" file="operahouse.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'opera house')</Filter>
+    <ShieldSymbolizer shield-dx="52" shield-dy="-30" fontset-name="fontset-0" allow-overlap="true" file="operahouse.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([graphic] = 'opera house')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="operahouse.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'statue of liberty')</Filter>
+    <ShieldSymbolizer shield-dx="-60" file="statueofliberty.svg" fontset-name="fontset-0" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'statue of liberty')</Filter>
+    <ShieldSymbolizer shield-dx="30" shield-dy="0" file="statueofliberty.svg" fontset-name="fontset-0" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([graphic] = 'statue of liberty')</Filter>
+    <ShieldSymbolizer shield-dx="-30" shield-dy="0" file="statueofliberty.svg" fontset-name="fontset-0" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'statue of liberty')</Filter>
+    <ShieldSymbolizer shield-dx="-40" shield-dy="-50" file="statueofliberty.svg" fontset-name="fontset-0" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([graphic] = 'statue of liberty')</Filter>
+    <ShieldSymbolizer file="statueofliberty.svg" fontset-name="fontset-0" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'taj mahal')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="tajmahal.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'taj mahal')</Filter>
+    <ShieldSymbolizer shield-dx="65" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="tajmahal.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'taj mahal')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="tajmahal.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'taj mahal')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="tajmahal.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'bigfoot')</Filter>
+    <MarkersSymbolizer file="bigfoot.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'bigfoot')</Filter>
+    <MarkersSymbolizer file="bigfoot.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'bigfoot')</Filter>
+    <MarkersSymbolizer file="bigfoot.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'seamonster')</Filter>
+    <MarkersSymbolizer file="seamonster.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([graphic] = 'mount fuji')</Filter>
+    <ShieldSymbolizer shield-dx="-40" fontset-name="fontset-0" allow-overlap="true" file="mountfuji.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'mount fuji')</Filter>
+    <ShieldSymbolizer shield-dy="40" fontset-name="fontset-0" allow-overlap="true" file="mountfuji.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'mount fuji')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="mountfuji.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer shield-dx="20" shield-dy="-60" fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer shield-dx="70" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer shield-dx="-70" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="-60" fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="-70" fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([graphic] = 'saint basils cathedral')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="saintbasils.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'timbuktu')</Filter>
+    <ShieldSymbolizer shield-dx="10" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="timbuktu.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'timbuktu')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="timbuktu.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'timbuktu')</Filter>
+    <ShieldSymbolizer shield-dx="-80" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="timbuktu.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'timbuktu')</Filter>
+    <ShieldSymbolizer shield-dx="25" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="timbuktu.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'athens')</Filter>
+    <ShieldSymbolizer shield-dx="-65" shield-dy="-10" fontset-name="fontset-0" allow-overlap="true" file="acropolis.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'athens')</Filter>
+    <ShieldSymbolizer shield-dx="-60" shield-dy="-10" fontset-name="fontset-0" allow-overlap="true" file="acropolis.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([graphic] = 'athens')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="acropolis.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'athens')</Filter>
+    <ShieldSymbolizer shield-dx="-65" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="acropolis.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'petra')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="petra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'petra')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="60" fontset-name="fontset-0" allow-overlap="true" file="petra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'petra')</Filter>
+    <ShieldSymbolizer shield-dx="20" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="petra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'christ the redeemer')</Filter>
+    <ShieldSymbolizer shield-dx="-95" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="christtheredeemer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'christ the redeemer')</Filter>
+    <ShieldSymbolizer shield-dx="-90" shield-dy="10" fontset-name="fontset-0" allow-overlap="true" file="christtheredeemer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'christ the redeemer')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="-30" fontset-name="fontset-0" allow-overlap="true" file="christtheredeemer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'christ the redeemer')</Filter>
+    <ShieldSymbolizer shield-dx="-10" shield-dy="-60" fontset-name="fontset-0" allow-overlap="true" file="christtheredeemer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'hagia sophia')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-60" fontset-name="fontset-0" allow-overlap="true" file="hagiasophia.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'hagia sophia')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="hagiasophia.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([graphic] = 'mount rushmore')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="mountrushmore.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'mount rushmore')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="-55" fontset-name="fontset-0" allow-overlap="true" file="mountrushmore.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'mount rushmore')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="40" fontset-name="fontset-0" allow-overlap="true" file="mountrushmore.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'mount rushmore')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="mountrushmore.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'golden gate bridge')</Filter>
+    <ShieldSymbolizer shield-dx="-10" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="goldengatebridge.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'golden gate bridge')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="goldengatebridge.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'pyramids')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="pyramids.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'pyramids')</Filter>
+    <ShieldSymbolizer shield-dx="-60" shield-dy="10" fontset-name="fontset-0" allow-overlap="true" file="pyramids.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'colosseum')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="colosseum.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'colosseum')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="colosseum.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'chichen itza')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="25" fontset-name="fontset-0" allow-overlap="true" file="chichenitza.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'chichen itza')</Filter>
+    <ShieldSymbolizer shield-dy="50" fontset-name="fontset-0" allow-overlap="true" file="chichenitza.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'chichen itza')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="chichenitza.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'easter island')</Filter>
+    <ShieldSymbolizer shield-dx="-7" shield-dy="-15" fontset-name="fontset-0" allow-overlap="true" file="easterisland.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'easter island')</Filter>
+    <ShieldSymbolizer fontset-name="fontset-0" allow-overlap="true" file="easterisland.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'stonehenge')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="25" fontset-name="fontset-0" allow-overlap="true" file="stonehenge.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'stonehenge')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="20" fontset-name="fontset-0" allow-overlap="true" file="stonehenge.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([graphic] = 'angkor wat')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="angkorwat.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'angkor wat')</Filter>
+    <ShieldSymbolizer shield-dx="-15" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="angkorwat.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([graphic] = 'angkor wat')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-15" fontset-name="fontset-0" allow-overlap="true" file="angkorwat.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'angkor wat')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-45" fontset-name="fontset-0" allow-overlap="true" file="angkorwat.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'eiffel tower')</Filter>
+    <ShieldSymbolizer shield-dx="100" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="eiffeltower.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'eiffel tower')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="eiffeltower.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'eiffel tower')</Filter>
+    <ShieldSymbolizer shield-dx="70" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="eiffeltower.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([graphic] = 'eiffel tower')</Filter>
+    <ShieldSymbolizer shield-dx="60" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="eiffeltower.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([graphic] = 'eiffel tower')</Filter>
+    <ShieldSymbolizer shield-dx="70" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="eiffeltower.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="30" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="-25" shield-dy="-70" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="40" shield-dy="-35" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="40" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([graphic] = 'petronas towers')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-40" fontset-name="fontset-0" allow-overlap="true" file="petronastowers.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'summer palace')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="0" fontset-name="fontset-0" allow-overlap="true" file="summerpalace.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'summer palace')</Filter>
+    <ShieldSymbolizer shield-dx="-50" shield-dy="-10" fontset-name="fontset-0" allow-overlap="true" file="summerpalace.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([graphic] = 'everest')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="25" fontset-name="fontset-0" allow-overlap="true" file="everest.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'everest')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="85" fontset-name="fontset-0" allow-overlap="true" file="everest.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([graphic] = 'everest')</Filter>
+    <ShieldSymbolizer shield-dx="0" shield-dy="-50" fontset-name="fontset-0" allow-overlap="true" file="everest.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'ship-pirate')</Filter>
+    <MarkersSymbolizer file="ship-pirate.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'dolphin')</Filter>
+    <MarkersSymbolizer file="dolphin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'dolphin')</Filter>
+    <MarkersSymbolizer file="dolphin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'dolphin')</Filter>
+    <MarkersSymbolizer file="dolphin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'fish')</Filter>
+    <MarkersSymbolizer file="fish.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'fish')</Filter>
+    <MarkersSymbolizer file="fish.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'fish')</Filter>
+    <MarkersSymbolizer file="fish.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'whale3')</Filter>
+    <MarkersSymbolizer file="whale3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'whale3')</Filter>
+    <MarkersSymbolizer file="whale3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'whale3')</Filter>
+    <MarkersSymbolizer file="whale3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'whale2')</Filter>
+    <MarkersSymbolizer file="whale2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'whale2')</Filter>
+    <MarkersSymbolizer file="whale2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'whale2')</Filter>
+    <MarkersSymbolizer file="whale2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'whale')</Filter>
+    <MarkersSymbolizer file="whale1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'whale')</Filter>
+    <MarkersSymbolizer file="whale1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'whale')</Filter>
+    <MarkersSymbolizer file="whale1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bigfoot')</Filter>
+    <MarkersSymbolizer file="bigfoot.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'bigfoot')</Filter>
+    <MarkersSymbolizer file="bigfoot.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([graphic] = 'seamonster')</Filter>
+    <MarkersSymbolizer file="seamonster.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'seamonster')</Filter>
+    <MarkersSymbolizer file="seamonster.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'bison')</Filter>
+    <MarkersSymbolizer file="bison.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'camel')</Filter>
+    <MarkersSymbolizer file="camel.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'llama')</Filter>
+    <MarkersSymbolizer file="llama.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'ox')</Filter>
+    <MarkersSymbolizer file="ox.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'panda')</Filter>
+    <MarkersSymbolizer file="panda.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'penguin')</Filter>
+    <MarkersSymbolizer file="penguin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'zebra')</Filter>
+    <MarkersSymbolizer file="zebra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'dino')</Filter>
+    <MarkersSymbolizer file="dino.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'gorilla')</Filter>
+    <MarkersSymbolizer file="gorilla.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'monkey')</Filter>
+    <MarkersSymbolizer file="monkey.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'cougar')</Filter>
+    <MarkersSymbolizer file="cougar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'moose')</Filter>
+    <MarkersSymbolizer file="moose.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'jaguar')</Filter>
+    <MarkersSymbolizer file="jaguar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'kangaroo')</Filter>
+    <MarkersSymbolizer file="kangaroo.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'elephant')</Filter>
+    <MarkersSymbolizer file="elephant.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'bear2')</Filter>
+    <MarkersSymbolizer file="bear2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'bear1')</Filter>
+    <MarkersSymbolizer file="bear1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'tiger')</Filter>
+    <MarkersSymbolizer file="tiger.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'lion2')</Filter>
+    <MarkersSymbolizer file="lion2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'lion1')</Filter>
+    <MarkersSymbolizer file="lion1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'deer')</Filter>
+    <MarkersSymbolizer file="deer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = '2') and ([graphic] = 'mammoth')</Filter>
+    <MarkersSymbolizer file="mammoth.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'ship')</Filter>
+    <MarkersSymbolizer file="ship.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'submarine')</Filter>
+    <MarkersSymbolizer file="submarine.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'boat2')</Filter>
+    <MarkersSymbolizer file="boat2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'boat1')</Filter>
+    <MarkersSymbolizer file="boat1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'dolphin')</Filter>
+    <MarkersSymbolizer file="dolphin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'fish')</Filter>
+    <MarkersSymbolizer file="fish.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'whale3')</Filter>
+    <MarkersSymbolizer file="whale3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'whale2')</Filter>
+    <MarkersSymbolizer file="whale2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'whale')</Filter>
+    <MarkersSymbolizer file="whale1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'bison')</Filter>
+    <MarkersSymbolizer file="bison.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'camel')</Filter>
+    <MarkersSymbolizer file="camel.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'llama')</Filter>
+    <MarkersSymbolizer file="llama.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'ox')</Filter>
+    <MarkersSymbolizer file="ox.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'panda')</Filter>
+    <MarkersSymbolizer file="panda.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'penguin')</Filter>
+    <MarkersSymbolizer file="penguin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'zebra')</Filter>
+    <MarkersSymbolizer file="zebra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'dino')</Filter>
+    <MarkersSymbolizer file="dino.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'gorilla')</Filter>
+    <MarkersSymbolizer file="gorilla.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'monkey')</Filter>
+    <MarkersSymbolizer file="monkey.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'cougar')</Filter>
+    <MarkersSymbolizer file="cougar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'moose')</Filter>
+    <MarkersSymbolizer file="moose.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'jaguar')</Filter>
+    <MarkersSymbolizer file="jaguar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'kangaroo')</Filter>
+    <MarkersSymbolizer file="kangaroo.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'elephant')</Filter>
+    <MarkersSymbolizer file="elephant.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'bear2')</Filter>
+    <MarkersSymbolizer file="bear2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'bear1')</Filter>
+    <MarkersSymbolizer file="bear1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'tiger')</Filter>
+    <MarkersSymbolizer file="tiger.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'lion2')</Filter>
+    <MarkersSymbolizer file="lion2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'lion1')</Filter>
+    <MarkersSymbolizer file="lion1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'deer')</Filter>
+    <MarkersSymbolizer file="deer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '3') and ([graphic] = 'mammoth')</Filter>
+    <MarkersSymbolizer file="mammoth.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bison')</Filter>
+    <MarkersSymbolizer file="bison.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bison')</Filter>
+    <MarkersSymbolizer file="bison.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = '1') and ([graphic] = 'camel')</Filter>
+    <MarkersSymbolizer file="camel.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = '1') and ([graphic] = 'llama')</Filter>
+    <MarkersSymbolizer file="llama.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'ox')</Filter>
+    <MarkersSymbolizer file="ox.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'ox')</Filter>
+    <MarkersSymbolizer file="ox.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = '1') and ([graphic] = 'panda')</Filter>
+    <MarkersSymbolizer file="panda.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = '1') and ([graphic] = 'penguin')</Filter>
+    <MarkersSymbolizer file="penguin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'zebra')</Filter>
+    <MarkersSymbolizer file="zebra.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'zebra')</Filter>
+    <MarkersSymbolizer file="zebra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'dino')</Filter>
+    <MarkersSymbolizer file="dino.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'dino')</Filter>
+    <MarkersSymbolizer file="dino.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'gorilla')</Filter>
+    <MarkersSymbolizer file="gorilla.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'gorilla')</Filter>
+    <MarkersSymbolizer file="gorilla.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'monkey')</Filter>
+    <MarkersSymbolizer file="monkey.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'monkey')</Filter>
+    <MarkersSymbolizer file="monkey.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'cougar')</Filter>
+    <MarkersSymbolizer file="cougar.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'cougar')</Filter>
+    <MarkersSymbolizer file="cougar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'moose')</Filter>
+    <MarkersSymbolizer file="moose.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'moose')</Filter>
+    <MarkersSymbolizer file="moose.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'jaguar')</Filter>
+    <MarkersSymbolizer file="jaguar.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'jaguar')</Filter>
+    <MarkersSymbolizer file="jaguar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'kangaroo')</Filter>
+    <MarkersSymbolizer file="kangaroo.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'kangaroo')</Filter>
+    <MarkersSymbolizer file="kangaroo.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'elephant')</Filter>
+    <MarkersSymbolizer file="elephant.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'elephant')</Filter>
+    <MarkersSymbolizer file="elephant.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bear2')</Filter>
+    <MarkersSymbolizer file="bear2.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bear2')</Filter>
+    <MarkersSymbolizer file="bear2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bear1')</Filter>
+    <MarkersSymbolizer file="bear1.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'bear1')</Filter>
+    <MarkersSymbolizer file="bear1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'tiger')</Filter>
+    <MarkersSymbolizer file="tiger.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'tiger')</Filter>
+    <MarkersSymbolizer file="tiger.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'lion2')</Filter>
+    <MarkersSymbolizer file="lion2.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'lion2')</Filter>
+    <MarkersSymbolizer file="lion2.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = '1') and ([graphic] = 'lion1')</Filter>
+    <MarkersSymbolizer file="lion1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'deer')</Filter>
+    <MarkersSymbolizer file="deer.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'deer')</Filter>
+    <MarkersSymbolizer file="deer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'mammoth')</Filter>
+    <MarkersSymbolizer file="mammoth.svg" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] = '1') and ([graphic] = 'mammoth')</Filter>
+    <MarkersSymbolizer file="mammoth.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'bison')</Filter>
+    <MarkersSymbolizer file="bison.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'camel')</Filter>
+    <MarkersSymbolizer file="camel.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'llama')</Filter>
+    <MarkersSymbolizer file="llama.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'ox')</Filter>
+    <MarkersSymbolizer file="ox.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'panda')</Filter>
+    <MarkersSymbolizer file="panda.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'penguin')</Filter>
+    <MarkersSymbolizer file="penguin.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'zebra')</Filter>
+    <MarkersSymbolizer file="zebra.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'dino')</Filter>
+    <MarkersSymbolizer file="dino.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'gorilla')</Filter>
+    <MarkersSymbolizer file="gorilla.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'monkey')</Filter>
+    <MarkersSymbolizer file="monkey.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'cougar')</Filter>
+    <MarkersSymbolizer file="cougar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'moose')</Filter>
+    <MarkersSymbolizer file="moose.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'jaguar')</Filter>
+    <MarkersSymbolizer file="jaguar.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'kangaroo')</Filter>
+    <MarkersSymbolizer file="kangaroo.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'elephant')</Filter>
+    <MarkersSymbolizer file="elephant.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'bear2')</Filter>
+    <MarkersSymbolizer file="bear2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'bear1')</Filter>
+    <MarkersSymbolizer file="bear1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'tiger')</Filter>
+    <MarkersSymbolizer file="tiger.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'lion2')</Filter>
+    <MarkersSymbolizer file="lion2.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'lion1')</Filter>
+    <MarkersSymbolizer file="lion1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'deer')</Filter>
+    <MarkersSymbolizer file="deer.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([graphic] = 'mammoth')</Filter>
+    <MarkersSymbolizer file="mammoth.svg" />
+  </Rule>
+</Style>
+<Layer name="creatures"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>creatures</StyleName>  </Layer>
+
+<Style name="poi_label" filter-mode="first">
+  <Rule>
+    <Filter>([maki] = 'airport') and ([scalerank] &gt; 1)</Filter>
+    <TextSymbolizer allow-overlap="false" fill="#dfefd4" fontset-name="fontset-1" dy="20" minimum-distance="15" size="12" avoid-edges="false" wrap-width="30" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="airport2.svg" allow-overlap="false" transform="translate(0,-10)" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[78]')) and ([scalerank] = 1)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="true" fill="#68ad90" fontset-name="fontset-1" dy="25" margin="10" size="12" wrap-width="60" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park4.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[78]'))</Filter>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park4.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[56]')) and ([scalerank] = 1)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="true" fill="#68ad90" fontset-name="fontset-1" dy="25" margin="10" size="12" wrap-width="60" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park3.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[56]'))</Filter>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park3.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[34]')) and ([scalerank] = 1)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="true" fill="#68ad90" fontset-name="fontset-1" dy="25" margin="10" size="12" wrap-width="60" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park2.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[34]'))</Filter>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park2.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[012]')) and ([scalerank] = 1)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="true" fill="#68ad90" fontset-name="fontset-1" dy="25" margin="10" size="12" wrap-width="60" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park1.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park1.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'airport')</Filter>
+    <TextSymbolizer allow-overlap="false" fill="#dfefd4" fontset-name="fontset-1" dy="20" minimum-distance="15" size="12" avoid-edges="false" wrap-width="30" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer allow-overlap="false" transform="translate(0,-10)" file="airport1.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="true" fill="#68ad90" fontset-name="fontset-1" dy="25" margin="10" size="12" wrap-width="60" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park4.svg" />
+  </Rule>
+  <Rule>
+    <Filter>([maki] = 'park')</Filter>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="park4.svg" />
+  </Rule>
+  <Rule>
+    <TextSymbolizer size="12" fontset-name="fontset-1" wrap-width="60" allow-overlap="false" avoid-edges="true" fill="#76b68e" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="poi_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>poi_label</StyleName>  </Layer>
+
+<Style name="country_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="18" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="18" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 7) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="18" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 7) and ([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="13" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &gt; 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="20" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 7) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 7) and ([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &gt; 4)</Filter>
+    <TextSymbolizer size="18" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="25" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 5)</Filter>
+    <TextSymbolizer size="25" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 5)</Filter>
+    <TextSymbolizer fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" margin="15" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer size="25" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &lt; 7)</Filter>
+    <TextSymbolizer size="25" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &lt; 7)</Filter>
+    <TextSymbolizer margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" size="20" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <TextSymbolizer size="25" margin="2" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#f4f9ed" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="country_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>country_label</StyleName>  </Layer>
+
+<Style name="state_label" filter-mode="first">
+  <Rule>
+    <TextSymbolizer fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#68ad90" size="15" margin="30" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="state_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>state_label</StyleName>  </Layer>
+
+<Style name="place_label-secondary" filter-mode="first">
+  <Rule>
+    <TextSymbolizer fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" wrap-width="40" fill="#cae5bb" size="12" margin="50" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Style name="place_label-primary" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[3]'))</Filter>
+    <TextSymbolizer size="12" dy="16" wrap-width="40" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" fill="#dfefd4" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="village1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'village') and ([osm_id].match('.*[0213]'))</Filter>
+    <MarkersSymbolizer width="15" file="village1.svg" />
+    <TextSymbolizer size="12" dy="16" wrap-width="40" fontset-name="fontset-0" allow-overlap="false" avoid-edges="false" fill="#dfefd4" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Style name="place_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 7) and ([scalerank] &lt; 9)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 7)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="35" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="80" file="city7.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="31" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer dy="31" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="35" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="80" file="city7.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="31" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer dy="31" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6) and ([scalerank] &gt;= 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]')) and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer dy="16" fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city1.svg" width="15" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]')) and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]'))</Filter>
+    <TextSymbolizer dy="16" fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city1.svg" width="15" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[678]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer dy="20" size="13" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>1500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &gt; 6)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer dy="30" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city4.svg" width="50" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer dy="20" size="16" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="20" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 6)</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="40" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city7.svg" width="80" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="35" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 0)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="28" file="city3.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="32" size="16" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="32" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city5.svg" width="60" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] = 1)</Filter>
+    <TextSymbolizer dy="20" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer file="city2.svg" width="24" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <Filter>([type] = 'town') and ([osm_id].match('.*[012]'))</Filter>
+    <TextSymbolizer fill="#dfefd4" wrap-width="50" margin="16" size="13" fontset-name="fontset-0" dy="12" ><![CDATA[[scalerank] + [name]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 2)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 3)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer size="16" dy="25" allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([type] = 'city') and ([scalerank] &lt; 6)</Filter>
+    <TextSymbolizer allow-overlap="false" avoid-edges="false" fill="#dfefd4" fontset-name="fontset-0" dy="18" size="15" wrap-width="70" margin="8" character-spacing="1" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="18" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([type] = 'city')</Filter>
+    <TextSymbolizer size="16" dy="25" fontset-name="fontset-0" fill="#dfefd4" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="25" file="city1.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([type] = 'city')</Filter>
+    <TextSymbolizer size="13" fontset-name="fontset-0" fill="#dfefd4" dy="10" character-spacing="1" wrap-width="90" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <MarkersSymbolizer width="15" file="city0.svg" />
+  </Rule>
+</Style>
+<Layer name="place_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>place_label</StyleName>
+    <StyleName>place_label-primary</StyleName>
+    <StyleName>place_label-secondary</StyleName>  </Layer>
+
+<Style name="water_label" filter-mode="first">
+  <Rule>
+    <TextSymbolizer fontset-name="fontset-2" avoid-edges="false" character-spacing="2" size="14" wrap-width="70" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="water_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>water_label</StyleName>  </Layer>
+
+<Style name="marine_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([labelrank] &lt;= 3) and ([labelrank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([labelrank] &lt;= 3) and ([labelrank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([labelrank] &lt;= 3) and ([labelrank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([labelrank] &gt; 2)</Filter>
+    <TextSymbolizer size="20" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([labelrank] &gt; 2)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([labelrank] &gt; 4)</Filter>
+    <TextSymbolizer size="16" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([labelrank] &lt;= 3)</Filter>
+    <TextSymbolizer size="25" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([labelrank] &lt;= 3)</Filter>
+    <TextSymbolizer fontset-name="fontset-2" avoid-edges="false" size="20" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([labelrank] &lt;= 3)</Filter>
+    <TextSymbolizer fontset-name="fontset-2" avoid-edges="false" size="20" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <TextSymbolizer size="25" fontset-name="fontset-2" avoid-edges="false" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer fontset-name="fontset-2" avoid-edges="false" size="20" wrap-width="50" fill="#578fb6" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="marine_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>marine_label</StyleName>  </Layer>
+
+<Layer name="waterway_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tnc_terr_ecoregions"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="reefs-alt2" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <TextSymbolizer size="30" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#b597c1" dy="10" dx="5" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <TextSymbolizer size="25" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#b597c1" dy="10" dx="5" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer size="20" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#b597c1" dy="10" dx="5" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <TextSymbolizer avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#b597c1" size="15" dy="10" dx="5" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Style name="reefs-alt" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <TextSymbolizer size="30" avoid-edges="true" placement="point" margin="1" face-name="Picturebook Regular" fill="#90d1c5" ><![CDATA['m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <TextSymbolizer size="25" avoid-edges="true" placement="point" margin="1" face-name="Picturebook Regular" fill="#90d1c5" ><![CDATA['m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer size="20" avoid-edges="true" placement="point" margin="1" face-name="Picturebook Regular" fill="#90d1c5" ><![CDATA['m']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <TextSymbolizer avoid-edges="true" placement="point" margin="1" face-name="Picturebook Regular" fill="#90d1c5" size="15" ><![CDATA['m']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Style name="reefs" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <TextSymbolizer size="35" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#94acbd" ><![CDATA['l']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <TextSymbolizer size="30" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#94acbd" ><![CDATA['l']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer size="25" avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#94acbd" ><![CDATA['l']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <TextSymbolizer avoid-edges="true" placement="interior" margin="2" face-name="Picturebook Regular" fill="#94acbd" size="20" ><![CDATA['l']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="reefs"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>reefs</StyleName>
+    <StyleName>reefs-alt</StyleName>
+    <StyleName>reefs-alt2</StyleName>  </Layer>
+
+<Layer name="aeroway"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="barrier_line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="landuse_overlay" filter-mode="first">
+  <Rule>
+    <Filter>([class] = 'wetland') and ([osm_id].match('.*[0123]')) and ([osm_id].match('.*[0189]'))</Filter>
+    <TextSymbolizer fill="#65aaa1" size="30" face-name="Picturebook Regular" avoid-edges="true" margin="10" placement="interior" allow-overlap="false" ><![CDATA['k']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'wetland') and ([osm_id].match('.*[0123]'))</Filter>
+    <TextSymbolizer fill="#65aaa1" size="30" face-name="Picturebook Regular" avoid-edges="true" margin="10" placement="interior" allow-overlap="false" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'wetland') and ([osm_id].match('.*[0189]'))</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="10" size="24" placement="interior" fill="#6bb9a4" allow-overlap="false" ><![CDATA['k']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'wetland')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="10" size="24" placement="interior" fill="#6bb9a4" allow-overlap="false" ><![CDATA['n']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="landuse_overlay"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landuse_overlay</StyleName>  </Layer>
+
+<Layer name="admin"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="landuse" filter-mode="first">
+  <Rule>
+    <Filter>([class] = 'industrial') and ([osm_id].match('.*[0129]')) and ([osm_id].match('.*[089]'))</Filter>
+    <TextSymbolizer size="18" fill="#edd29a" face-name="Picturebook Regular" avoid-edges="true" margin="5" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'industrial') and ([osm_id].match('.*[0129]'))</Filter>
+    <TextSymbolizer size="18" face-name="Picturebook Regular" avoid-edges="true" margin="5" fill="#fbf7bc" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'industrial') and ([osm_id].match('.*[089]'))</Filter>
+    <TextSymbolizer fill="#edd29a" face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'industrial')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" fill="#fbf7bc" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'cemetery') and ([osm_id].match('.*[01]')) and ([osm_id].match('.*[0]'))</Filter>
+    <TextSymbolizer fill="#f4f9ed" face-name="Picturebook Regular" avoid-edges="true" margin="5" size="20" placement="interior" allow-overlap="false" ><![CDATA['b']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'pitch')</Filter>
+    <TextSymbolizer fill="#68ad90" face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'cemetery') and ([osm_id].match('.*[01]'))</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="5" size="20" placement="interior" fill="#cae5bb" allow-overlap="false" ><![CDATA['b']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([class] = 'school')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="3" size="9" fill="#5ca2d2" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([class] = 'hospital')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="3" size="9" fill="#5ca2d2" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'park')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" fill="#76b68e" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="22" margin="60" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="20" margin="50" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="18" margin="50" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="15" margin="30" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" size="12" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="landuse"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landuse</StyleName>  </Layer>
+
+<Style name="hillshade" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <TextSymbolizer size="60" fill="#c1e0b1" margin="12" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <TextSymbolizer size="50" fill="#c1e0b1" margin="12" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <TextSymbolizer size="45" fill="#c1e0b1" margin="12" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <TextSymbolizer size="40" fill="#c1e0b1" margin="12" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <TextSymbolizer fill="#c1e0b1" margin="12" size="30" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([class] = 'medium_highlight')</Filter>
+    <TextSymbolizer size="45" margin="20" fill="#b0d89d" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'medium_highlight')</Filter>
+    <TextSymbolizer size="40" margin="10" fill="#b0d89d" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'medium_highlight')</Filter>
+    <TextSymbolizer size="30" margin="10" fill="#b0d89d" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'medium_highlight')</Filter>
+    <TextSymbolizer fill="#b0d89d" margin="8" size="30" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([class] = 'medium_shadow')</Filter>
+    <TextSymbolizer size="40" margin="30" fill="#c1e0b1" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'medium_shadow')</Filter>
+    <TextSymbolizer size="35" margin="20" fill="#c1e0b1" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'medium_shadow')</Filter>
+    <TextSymbolizer size="25" margin="20" fill="#c1e0b1" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'medium_shadow')</Filter>
+    <TextSymbolizer fill="#c1e0b1" size="15" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" margin="5" ><![CDATA['f']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([class] = 'full_highlight')</Filter>
+    <TextSymbolizer size="22" margin="5" fill="#b9dca7" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'full_highlight')</Filter>
+    <TextSymbolizer size="18" fill="#b9dca7" margin="3" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'full_highlight')</Filter>
+    <TextSymbolizer size="15" fill="#b9dca7" margin="3" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'full_highlight')</Filter>
+    <TextSymbolizer fill="#b9dca7" size="12" margin="3" face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" allow-overlap="false" margin="5" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="hillshade"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>hillshade</StyleName>  </Layer>
+
+<Layer name="contour"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="bathymetry-dots" filter-mode="first">
+  <Rule>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="20" size="20" placement="interior" fill="#6abcbf" allow-overlap="false" dy="15" ><![CDATA['l']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Style name="bathymetry" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([DEPTH] &lt; 3000) and ([DEPTH] &gt;= 1250)</Filter>
+    <TextSymbolizer size="40" fill="#61abcc" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['u']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([DEPTH] &lt; 3000) and ([DEPTH] &gt;= 1250)</Filter>
+    <TextSymbolizer size="35" fill="#61abcc" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['u']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([DEPTH] &lt; 3000) and ([DEPTH] &gt;= 1250)</Filter>
+    <TextSymbolizer size="30" fill="#61abcc" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['u']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([DEPTH] &lt; 3000) and ([DEPTH] &gt;= 1250)</Filter>
+    <TextSymbolizer size="25" fill="#61abcc" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['u']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([DEPTH] &gt;= 500) and ([DEPTH] &lt; 1250)</Filter>
+    <TextSymbolizer size="40" fill="#67b6c2" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['v']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 500) and ([DEPTH] &lt; 1250)</Filter>
+    <TextSymbolizer size="35" fill="#67b6c2" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['v']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 500) and ([DEPTH] &lt; 1250)</Filter>
+    <TextSymbolizer size="30" fill="#67b6c2" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['v']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 500) and ([DEPTH] &lt; 1250)</Filter>
+    <TextSymbolizer size="25" fill="#67b6c2" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['v']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([DEPTH] &gt;= 0) and ([DEPTH] &lt; 500)</Filter>
+    <TextSymbolizer size="45" fill="#65b3c5" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['t']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 0) and ([DEPTH] &lt; 500)</Filter>
+    <TextSymbolizer size="40" fill="#65b3c5" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['t']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 0) and ([DEPTH] &lt; 500)</Filter>
+    <TextSymbolizer size="35" fill="#65b3c5" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['t']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([DEPTH] &gt;= 0) and ([DEPTH] &lt; 500)</Filter>
+    <TextSymbolizer size="30" fill="#65b3c5" face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" allow-overlap="false" ><![CDATA['t']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([DEPTH] &lt; 3000)</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="15" placement="interior" fill="#65b3c5" allow-overlap="false" ><![CDATA['t']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="bathymetry"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>bathymetry</StyleName>
+    <StyleName>bathymetry-dots</StyleName>  </Layer>
+
+<Style name="building" filter-mode="first">
+  <Rule>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="1" size="9" fill="#dd7d7b" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="building"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>building</StyleName>  </Layer>
+
+<Style name="glaciers" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <TextSymbolizer size="50" avoid-edges="true" placement="point" margin="5" face-name="Picturebook Regular" fill="#e2eecc" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <TextSymbolizer size="45" avoid-edges="true" placement="point" margin="5" face-name="Picturebook Regular" fill="#e2eecc" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer size="40" avoid-edges="true" placement="point" margin="5" face-name="Picturebook Regular" fill="#e2eecc" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <TextSymbolizer avoid-edges="true" placement="point" margin="5" face-name="Picturebook Regular" fill="#e2eecc" size="40" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="glaciers"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>glaciers</StyleName>  </Layer>
+
+<Style name="landcover" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'snow')</Filter>
+    <TextSymbolizer size="50" fill="#e2eecc" margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([class] = 'snow')</Filter>
+    <TextSymbolizer size="50" fill="#e2eecc" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'snow')</Filter>
+    <TextSymbolizer size="45" fill="#e2eecc" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'snow')</Filter>
+    <TextSymbolizer size="40" fill="#e2eecc" margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'snow')</Filter>
+    <TextSymbolizer fill="#e2eecc" size="30" avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['e']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer size="36" fill="#68ad90" margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer size="36" fill="#68ad90" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer size="32" fill="#68ad90" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer size="28" fill="#68ad90" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer size="24" fill="#68ad90" margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'grass')</Filter>
+    <TextSymbolizer fill="#68ad90" size="20" avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="32" fill="#6ab39a" margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="32" fill="#6ab39a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="28" fill="#6ab39a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="24" fill="#6ab39a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="20" fill="#6ab39a" margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer fill="#6ab39a" size="15" avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['q']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer size="28" fill="#7ca69a" margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer size="28" fill="#7ca69a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer size="24" fill="#7ca69a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer size="22" fill="#7ca69a" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer size="20" fill="#7ca69a" margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'crop')</Filter>
+    <TextSymbolizer fill="#7ca69a" size="15" avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['s']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer size="22" fill="#84bf8d" margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer size="22" fill="#84bf8d" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer size="20" fill="#84bf8d" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer size="18" fill="#84bf8d" margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer size="15" fill="#84bf8d" margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'scrub')</Filter>
+    <TextSymbolizer fill="#84bf8d" size="12" avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <TextSymbolizer margin="1" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <TextSymbolizer margin="4" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <TextSymbolizer margin="3" avoid-edges="true" placement="interior" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <TextSymbolizer avoid-edges="true" placement="interior" margin="1" face-name="Picturebook Regular" ><![CDATA['o']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="landcover"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landcover</StyleName>  </Layer>
+
+<Style name="landuse" filter-mode="first">
+  <Rule>
+    <Filter>([class] = 'cemetery') and ([osm_id].match('.*[01]')) and ([osm_id].match('.*[0]'))</Filter>
+    <TextSymbolizer fill="#f4f9ed" face-name="Picturebook Regular" avoid-edges="true" margin="5" size="20" placement="interior" allow-overlap="false" ><![CDATA['b']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'pitch')</Filter>
+    <TextSymbolizer fill="#68ad90" face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'cemetery') and ([osm_id].match('.*[01]'))</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="5" size="20" placement="interior" fill="#cae5bb" allow-overlap="false" ><![CDATA['b']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([class] = 'school')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="3" size="9" fill="#5ca2d2" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <Filter>([class] = 'hospital')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="3" size="9" fill="#5ca2d2" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([class] = 'park')</Filter>
+    <TextSymbolizer face-name="Picturebook Regular" avoid-edges="true" margin="5" size="9" fill="#76b68e" allow-overlap="false" ><![CDATA['c']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="22" margin="60" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <MinScaleDenominator>3000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="20" margin="50" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="18" margin="50" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer size="15" margin="30" avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <TextSymbolizer avoid-edges="true" placement="interior" face-name="Picturebook Regular" fill="#7ca69a" size="12" ><![CDATA['p']]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="landuse"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landuse</StyleName>  </Layer>
+
+<Layer name="road_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="layer_full" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="rgba(228, 216, 127, 0.1)" comp-op="multiply" />
+    <PolygonPatternSymbolizer file="halftone5.svg" comp-op="overlay" opacity="0.075" />
+  </Rule>
+</Style>
+<Layer name="layer_full"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>layer_full</StyleName>  </Layer>
+
+</Map>

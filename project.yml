@@ -1,0 +1,56 @@
+_prefs: 
+  baselayer: ''
+  mapid: saman.ed44282c
+  saveCenter: true
+_properties: {}
+attribution: Map data © OpenStreetMap contributors
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -90.7141
+  - 42.884
+  - 7
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - waterway
+  - water
+  - lakes
+  - place_label
+  - creatures
+  - poi_label
+  - country_label
+  - state_label
+  - place_label.minor
+  - water_label
+  - marine_label
+  - waterway_label
+  - tnc_terr_ecoregions
+  - reefs
+  - aeroway
+  - barrier_line
+  - landuse_overlay
+  - admin
+  - landuse.industrial
+  - hillshade
+  - contour
+  - bathymetry
+  - building
+  - glaciers
+  - landcover
+  - landuse
+  - road_label
+  - layer_full
+maxzoom: 11
+minzoom: 4
+name: picture book
+source: "mapbox:///mapbox.mapbox-bathymetry-v1,mapbox.mapbox-streets-v4,mapbox.mapbox-terrain-v1,saman.75bd258f"
+styles: 
+  - style.mss
+  - labels.mss
+  - terrain.mss
+template: ''

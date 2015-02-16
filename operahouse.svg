@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="86"
+   height="45"
+   id="svg5660"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="operahouse.svg">
+  <defs
+     id="defs5662" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="41.578423"
+     inkscape:cy="21.253575"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1000"
+     inkscape:window-height="546"
+     inkscape:window-x="383"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5668"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-300px"
+       originy="-570px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5665">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-300,-437.36218)">
+    <g
+       transform="translate(-1480,-680.01282)"
+       id="g5605-5">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5153-5-1"
+         d="m 1859.7812,1144.0625 c -2.5601,0.052 -5.1007,1.212 -6.7812,3.3125 -2.2722,-1.7042 -5.3572,-2.0673 -8.5938,-0.7188 l 5.5938,8.7188 9,0 1,0 5.4062,-9.375 c -1.6336,-1.3539 -3.6337,-1.978 -5.625,-1.9375 z"
+         style="color:#000000;fill:#f4f9ed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path5196-0"
+         d="m 1850,1155.375 c 0,0 -4,0 -4,4 l 0,3 6,0 7,0 5,0 0,-3 c 0,-4 -4,-4 -4,-4 z"
+         style="color:#000000;fill:#c1a17f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccsscccccc"
+         id="rect5201-0"
+         d="m 1804.1562,1120.2193 c -2.6101,0.073 -5.3437,0.5593 -8.1562,1.5624 l 5.3125,8.7813 c -4.0219,-1.6523 -8.9473,-1.9336 -13.3125,-0.1875 l 4.875,6.9375 c -3.4961,-1.3866 -7.5941,-1.7212 -11.875,0.062 l 8,13 4,0 9,0 c 5.4263,0 8,5 13,5 l 5,0 15,0 8,-13.875 c -3.9291,-3.2561 -10.4981,-3.6793 -15,-1.1378 -3.8463,-10.6765 -10.8184,-20.5082 -23.8438,-20.1434 z"
+         style="color:#000000;fill:#f4f9ed;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(-10,-10)"
+         id="g5205-9">
+        <path
+           sodipodi:nodetypes="scccccscsss"
+           inkscape:connector-curvature="0"
+           id="rect5149-5"
+           d="m 1799,1160.375 c -4,0 -4,4 -4,4 l 0,1 0,7 17,0 37,0 0,-3 c 0,-4 -4,-4 -4,-4 l -20,0 c -5,0 -7.5737,-5 -13,-5 z"
+           style="color:#000000;fill:#c1a17f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </g>
+    </g>
+  </g>
+</svg>

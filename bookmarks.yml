@@ -1,0 +1,80 @@
+- place_name: Shizuoka, Japan
+  zoom: 7
+  center: 
+    - 34.9805024453652
+    - 138.22998046875
+  tags: 
+    - userbookmark
+  index: 0
+- place_name: Chongqing, China
+  zoom: 5
+  center: 
+    - 29.592565403314087
+    - 107.314453125
+  tags: 
+    - userbookmark
+  index: 1
+- place_name: Xizang, China
+  zoom: 11
+  center: 
+    - 29.750965143409562
+    - 87.54936218261719
+  tags: 
+    - userbookmark
+  index: 2
+- place_name: HaDarom, Israel
+  zoom: 7
+  center: 
+    - 30.339694848974247
+    - 34.793701171875
+  tags: 
+    - userbookmark
+  index: 3
+- place_name: London, SW1V1, City of Westminster, United Kingdom
+  zoom: 11
+  center: 
+    - 51.49613345052725
+    - -0.142822265625
+  tags: 
+    - userbookmark
+  index: 4
+- place_name: Nunavut, Canada
+  zoom: 6
+  center: 
+    - 66.43871533193368
+    - -79.453125
+  tags: 
+    - userbookmark
+  index: 5
+- place_name: Staten Island, 10310, New York, United States
+  zoom: 10
+  center: 
+    - 40.635319920747456
+    - -74.11102294921875
+  tags: 
+    - userbookmark
+  index: 6
+- place_name: -19.4977, 154.2480
+  zoom: 5
+  center: 
+    - -19.49766416813904
+    - 154.24804687500003
+  tags: 
+    - userbookmark
+  index: 7
+- place_name: Isla de Pascua, DE VALPARAISO, Chile
+  zoom: 11
+  center: 
+    - -27.127285473123024
+    - -109.3798828125
+  tags: 
+    - userbookmark
+  index: 8
+- place_name: 89440, Yonne, France
+  zoom: 5
+  center: 
+    - 47.5913464767971
+    - 4.04296875
+  tags: 
+    - userbookmark
+  index: 9

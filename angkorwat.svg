@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="84"
+   height="51.000004"
+   id="svg8695"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="angkorwat.svg">
+  <defs
+     id="defs8697" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="48.501307"
+     inkscape:cy="17.765068"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="876"
+     inkscape:window-height="618"
+     inkscape:window-x="150"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid8703"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata8700">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-283,-471.36218)">
+    <g
+       transform="translate(-1780,-420)"
+       id="g8712">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6949"
+         d="m 2086,891.36218 c 0,0 -7,7 -7,15 l 0,16 -3,0 c 0,0 -5,-10e-6 -5,5 l 0,5 -3,0 c 0,0 -5,-10e-6 -5,5 l 0,5 8,0 68,0 8,0 0,-5 c 0,-5.00001 -5,-5 -5,-5 l -3,0 0,-5 c 0,-5.00001 -5,-5 -5,-5 l -3,0 0,-16 c 0,-8 -7,-15 -7,-15 0,0 -7,7 -7,15 l 0,11 -2,0 -3,0 0,-11 c 0,-8 -7,-15 -7,-15 0,0 -7,7 -7,15 l 0,11 -3,0 -2,0 0,-11 c 0,-8 -7,-15 -7,-15 z"
+         style="color:#000000;fill:#c2d7b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccc" />
+      <path
+         style="color:#000000;fill:#9ba985;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 42 38 C 39.23 38 37 40.23 37 43 L 37 46 L 37 51 L 42 51 L 47 51 L 47 46 L 47 43 C 47 40.23 44.77 38 42 38 z "
+         transform="translate(2063,891.36218)"
+         id="rect6881" />
+      <path
+         style="color:#000000;fill:#9ba985;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 16 15 L 16 19 L 30 19 L 30 15 L 16 15 z M 35 15 L 35 19 L 49 19 L 49 15 L 35 15 z M 54 15 L 54 19 L 68 19 L 68 15 L 54 15 z M 16 22 L 16 26 L 30 26 L 30 22 L 16 22 z M 35 22 L 35 26 L 49 26 L 49 22 L 35 22 z M 54 22 L 54 26 L 68 26 L 68 22 L 54 22 z "
+         transform="translate(2063,891.36218)"
+         id="rect6928" />
+    </g>
+  </g>
+</svg>
