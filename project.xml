@@ -5,7 +5,7 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[Map data © OpenStreetMap contributors]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">-90.7141,42.884,7</Parameter>
+  <Parameter name="center">10.0635,49.0667,5</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">11</Parameter>
   <Parameter name="minzoom">4</Parameter>
@@ -18,7 +18,7 @@
   <Font face-name="Arial Unicode MS Bold"/>
 </FontSet>
 <FontSet name="fontset-1">
-  <Font face-name="Gotham Bold"/>
+  <Font face-name="Mark Offc Pro Heavy"/>
   <Font face-name="Arial Unicode MS Bold"/>
 </FontSet>
 <FontSet name="fontset-2">

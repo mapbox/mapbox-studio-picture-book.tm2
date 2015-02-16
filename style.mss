@@ -2,9 +2,8 @@
 @name: '[name_en]';
 
 @font1: 'Marselis Slab Offc Pro Bold','Arial Unicode MS Bold';
-//@font2: 'Marselis Slab Offc Pro Bold','Arial Unicode MS Bold';
 @font2: 'Tartine Script Offc Pro Bold','Arial Unicode MS Bold';
-@font3: 'Gotham Bold','Arial Unicode MS Bold';
+@font3: 'Mark Offc Pro Heavy','Arial Unicode MS Bold';
 @font4: 'Market Offc Pro Bold', 'Arial Unicode MS Bold';
 @icons: 'Picturebook Regular';
 
