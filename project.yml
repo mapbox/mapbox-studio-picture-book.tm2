@@ -1,22 +1,21 @@
-_prefs: 
+_prefs:
   baselayer: ''
-  mapid: saman.ed44282c
   saveCenter: true
 _properties: {}
 attribution: Map data © OpenStreetMap contributors
-bounds: 
+bounds:
   - -180
   - -85.0511
   - 180
   - 85.0511
-center: 
+center:
   - 10.0635
   - 49.0667
   - 5
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
-layers: 
+layers:
   - waterway
   - water
   - lakes
@@ -49,7 +48,7 @@ maxzoom: 11
 minzoom: 4
 name: picture book
 source: "mapbox:///mapbox.mapbox-bathymetry-v1,mapbox.mapbox-streets-v4,mapbox.mapbox-terrain-v1,saman.75bd258f"
-styles: 
+styles:
   - style.mss
   - labels.mss
   - terrain.mss
